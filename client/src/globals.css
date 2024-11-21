@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-black text-gray-300 m-0 p-0 box-border font-primary;
+}
+
+.flex-center {
+  @apply flex items-center justify-center;
+}
+
+.input {
+  @apply w-full outline-none border-[1px] border-violet-600 bg-transparent rounded-xl py-2 px-4;
+}
