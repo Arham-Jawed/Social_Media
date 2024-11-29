@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sriracha&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-zinc-950 text-gray-300 m-0 p-0 box-border font-primary;
+}
+
+.flex-center {
+  @apply flex justify-center items-center;
+}
+
+.input {
+  @apply outline-none border-[1px] border-orange-800 bg-transparent rounded-xl px-4 py-2 w-full;
+}
